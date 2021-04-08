@@ -1,0 +1,7 @@
+server:
+  port: ${PORT:8081}
+sendgrid:
+  api-key: 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
+spring:
+  profiles:
+    active: prod

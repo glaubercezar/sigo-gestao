@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    generate-ddl: false
+    hibernate.ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3307/gestao?createDatabaseIfNotExist=true
+    username: root
+    password: 123456
+    schema: classpath*:db/schema.sql
+    #data: classpath*:db/data.sql
+    continue-on-error: true
+    initialization-mode: always
+
