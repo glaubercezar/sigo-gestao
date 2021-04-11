@@ -11,3 +11,5 @@ automatic_scaling:
 #basic_scaling:
 #  max_instances: 2
 #  idle_timeout: 3m
+includes:
+  - env_variables.yaml

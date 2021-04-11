@@ -21,6 +21,9 @@ As configurações são para banco de dados, api keys, etc.
 mvn spring-boot:run
 ```
 
+Para o envio de emails funcionar a partir do ambiente local é necessário atribuir uma variável de ambiente 
+SENDGRID_API_KEY com uma API Key válida do SendGrid.
+
 ## Deploy
 
 Com o SDK gcloud instalado e configurado é possível solicitar o deploy para o ambiente de produção:

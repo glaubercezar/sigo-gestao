@@ -14,7 +14,7 @@ public class SendGridMailService {
 
     private SendGrid sg;
 
-    SendGridMailService(@Value("${sendgrid.api-key}") String apiKey) {
+    SendGridMailService(@Value("${SENDGRID_API_KEY}") String apiKey) {
         this.sg = new SendGrid(apiKey);
     }
 
